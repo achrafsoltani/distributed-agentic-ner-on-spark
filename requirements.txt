@@ -11,6 +11,17 @@ boto3>=1.35.0
 # Data wrangling
 pandas>=2.2.0
 pyarrow>=17.0.0
+numpy>=1.26.0
+duckdb>=1.0.0
+
+# Student training & evaluation
+spacy>=3.7.0
+scikit-learn>=1.4.0
+transformers>=4.44.0
+optimum[onnxruntime]>=1.23.0
+
+# Plotting (Fig. 7 long-tail scatter)
+matplotlib>=3.8.0
 
 # Configuration
 python-dotenv>=1.0.0
